@@ -1,7 +1,7 @@
 {
   "name": "quoted-string-regex",
   "description": "JavaScript regular expression for matching a quoted string.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/regexps/quoted-string-regex",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "regexps/quoted-string-regex",
