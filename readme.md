@@ -1,6 +1,8 @@
-# quoted-string-regex [![NPM version](https://badge.fury.io/js/quoted-string-regex.svg)](http://badge.fury.io/js/quoted-string-regex)
+# quoted-string-regex [![NPM version](https://badge.fury.io/js/quoted-string-regex.svg)](http://badge.fury.io/js/quoted-string-regex)  [![Build Status](https://travis-ci.org/regexps/quoted-string-regex.svg)](https://travis-ci.org/regexps/quoted-string-regex)
 
 > JavaScript regular expression for matching a quoted string.
+
+Originally [posted here](https://github.com/less/less.js/issues/2339#issuecomment-67211009).
 
 ## Install
 
@@ -27,7 +29,7 @@ var regex = require('quoted-string-regex');
 //=> ['". // \' \\ . // \' \\ ."']
 ```
 
-## Similar projects
+## Related projects
 
 * [copyright-regex](https://www.npmjs.com/package/copyright-regex): Regex for matching and parsing copyright statements. | [homepage](https://github.com/regexps/copyright-regex)
 * [todo-regex](https://www.npmjs.com/package/todo-regex): Regular expression for matching TODO statements in a string. | [homepage](https://github.com/regexps/todo-regex)
