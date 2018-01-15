@@ -1,12 +1,12 @@
 /*!
  * quoted-string-regex <https://github.com/regexps/quoted-string-regex>
  *
- * Copyright (c) 2015-2017, Jon Schlinkert.
+ * Copyright (c) 2015-2018, Jon Schlinkert.
  * Released under the MIT License.
  */
 
 'use strict';
 
 module.exports = function() {
-  return /'([^'\\]*\\.)*[^']*'|"([^"\\]*\\.)*[^"]*"/g;
+  return /(?:\\['"`].)*?(['"`])((?:\\\1|.)*?)(\1)/g;
 };

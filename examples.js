@@ -1,7 +1,5 @@
-## Usage
+var regex = require('./');
 
-```js
-var regex = require('{%= name %}');
 console.log(regex().exec('var foo = \'bar\';')[2]);
 //=> ['bar']
 
@@ -16,4 +14,3 @@ console.log('var foo = "one";\nvar bar = \'two\';\nvar baz = `three`'.match(rege
 
 console.log(regex().exec('foo bar ". // \' \\ . // \' \\ ." baz')[2]);
 //=> ['. // \' \\ . // \' \\ .']
-```
