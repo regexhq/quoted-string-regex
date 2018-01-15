@@ -39,8 +39,9 @@
     ],
     "related": {
       "list": [
-        "copyright-regex",
-        "todo-regex"
+        "es6-template-regex",
+        "year-range-regex",
+        "to-regex-range"
       ]
     },
     "lint": {
